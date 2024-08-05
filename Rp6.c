@@ -21,21 +21,21 @@ void main()
     printf("enter value of y");
     scanf("%d",&y);
     
-   switch (o)
+   switch(o)
   {
-    case '+':
+    case'+':
     printf ("%d",x+y);
     break;
 
-    case '-':
+    case'-':
     printf("%d",x-y);
     break;
 
-    case '*':
+    case'*':
     printf("%d",x*y);
     break;
 
-    case '/':
+    case'/':
     printf("%d",x/y);
     break;
 

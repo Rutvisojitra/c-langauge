@@ -11,14 +11,18 @@ void main()
 
     int x,y;
     char o;
-
-    scanf("%d%d",&x,&y);
-    fflush(stdin);
-
+    
+    printf("enter your choice");
     scanf("%c",&o);
 
-    switch ( o )
-    {
+    printf("enter value of x");
+    scanf("%d",&x);
+
+    printf("enter value of y");
+    scanf("%d",&y);
+    
+   switch (o)
+  {
     case '+':
     printf ("%d",x+y);
     break;
@@ -37,5 +41,5 @@ void main()
 
     defult:
     printf("invalid value");
-}
+  }
 }

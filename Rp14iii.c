@@ -17,18 +17,18 @@ void main()
 
       for(c=1;c<=(n-r);c++)
       {
-          printf(" ");
+          printf("  ");
       }
        x='A';
       for(c=(n-r+1);c<=n;c++)
       {
-          printf("%c",x);
+          printf("%2c",x);
           x++;
       }
       x=x-2;
       for(c=n+1;c<=n+r-1;c++)
        {
-           printf("%c",x);
+           printf("%2c",x);
            x=x-1;
        }
        printf("\n");

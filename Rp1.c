@@ -17,11 +17,11 @@ void main()
         {
             printf("  ");
         }
-        for(c=n1-r+1;c<=n1;c++)\
+        for(c=n1-r+1;c<=n1;c++)
         {
             printf(" *");
         }
-        for(c=1;c<r-1;c++)
+        for(c=1;c<=r-1;c++)
         {
             printf(" *");
         }
@@ -34,7 +34,7 @@ void main()
             printf("  ");
         }
 
-        for(c=1;c<=n2-r+1;c++)
+        for(c=1;c<=2*(n2-r+1)-1;c++)
         {
             printf(" *");
         }

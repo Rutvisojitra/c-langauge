@@ -1,17 +1,20 @@
 #include<stdio.h>
-#include<math.h>
 void main()
 {
-    int g,h,i;
+    int a=1;
+  printf("customer 1 purchase %d no ticket \n",a);
 
-    printf("enter the value of g \n");
-scanf("%d",&g);
+  printf("customer 2 purchase %d no ticket \n",++a);
 
-printf("enter the value of h \n");
-scanf("%d",&h);
+  printf("customer 2 cancle %d no ticket \n",a--);
 
-printf("enter the value of i \n");
-scanf("%d",&i);
+  printf("customer 3 purchase %d no ticket \n",++a);
 
-printf("%d",g*h/i);
+  printf("customer 3 cancle %d no ticket \n",a--);
+
+  printf("customer 4 purchase %d no ticket \n",++a);
+
+  printf("customer 5 purchase %d no ticket \n",++a);
+
+  printf("total sold ticket is %d",a);
 }
